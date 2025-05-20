@@ -33,6 +33,6 @@ void cl_application::build_tree_objects ( )
 int cl_application::exec_app ( )
 {
 	cout << get_name ( ); 																	// Вывод имени корневого объекта
-	print_tree ( ); 																			// Вывод дерева иерархии объектов
+	print_tree ( ); 																	// Вывод дерева иерархии объектов
 	return 0;
 }
