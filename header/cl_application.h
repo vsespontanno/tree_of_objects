@@ -5,12 +5,12 @@
 #include "cl_obj.h"
 using namespace std;
 
-class cl_application : public cl_base 							  // Наследуем метода базового класса
+class cl_application : public cl_base 							  	// Наследуем метода базового класса
 {
 	public:
-		cl_application ( cl_base * p_head_object ); 			// Конструктор создает корневой объект
-		void build_tree_objects ( ); 						        	// Построение дерева иерархии объектов
-		int exec_app ( ); 									            	// Запуск алгоритма (вывод дерева)
+		cl_application ( cl_base * p_head_object ); 					// Конструктор создает корневой объект
+		void build_tree_objects ( ); 						        // Построение дерева иерархии объектов
+		int exec_app ( );								// Запуск алгоритма (вывод дерева)
 };
 
 #endif
